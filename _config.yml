@@ -25,7 +25,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-# avatar: "/assets/img/mthood2.jpg"
+avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: false
@@ -76,7 +76,7 @@ share-links-active:
 #url-pretty: "MyWebsite.com"
 
 # Create a "tags" index page and make tags on each post clickable
-link-tags: true
+link-tags: false
 
 # Excerpt Word Length - Truncates the excerpt to the specified number of words on the index page
 excerpt_length: 50
@@ -105,7 +105,7 @@ page-img: "/assets/img/mthood2.jpg"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "UA-171569503-1"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
@@ -169,7 +169,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "America/Atlanta"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
