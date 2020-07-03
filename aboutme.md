@@ -5,7 +5,7 @@ subtitle: Answering some of the W's
 show-avatar: false
 
 ---
-![test](assets/img/janelia_me.jpeg "test image")
+![jan](assets/img/janelia_me.jpeg)
 
 My name is Inigo Montoya. I have the following qualities:
 
