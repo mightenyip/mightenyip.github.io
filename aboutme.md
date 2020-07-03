@@ -2,6 +2,8 @@
 layout: page
 title: About me
 subtitle: Answering some of the W's
+show-avatar: false
+![pic1](/assets/img/janeliame.jpg)
 ---
 
 My name is Inigo Montoya. I have the following qualities:
@@ -9,7 +11,6 @@ My name is Inigo Montoya. I have the following qualities:
 - I rock a great mustache
 - I'm extremely loyal to my family
 
-![janelia](/assets/img/janeliame.jpg "A picture")
 
 ### my history
 

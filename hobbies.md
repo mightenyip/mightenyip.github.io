@@ -3,8 +3,8 @@ layout: page
 title: Hobbies
 subtitle: Gently folding laundry with people in them.
 ---
-
-![warthog](/assets/img/warthog.jpg "A pumba")
+show-avatar: false
+![pumba](/assets/img/warthog.jpg)
 
 
 ### my hero
