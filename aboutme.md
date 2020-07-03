@@ -3,8 +3,9 @@ layout: page
 title: About me
 subtitle: Answering some of the W's
 show-avatar: false
-![pic1](/assets/img/janeliame.jpg)
+
 ---
+![test](/assets/img/janelia_me.jpeg "test image")
 
 My name is Inigo Montoya. I have the following qualities:
 
