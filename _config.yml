@@ -1,7 +1,7 @@
 # --- Basic options --- #
 
 # Name of website
-title: Mighten Yip
+title: Mighten Yip - Home
 
 # Short description of your site
 description: A virtual proof that I'm awesome
@@ -13,7 +13,7 @@ author: Mighten Yip
 
 navbar-links:
   About Me: "aboutme"
-  CV: "CV"
+  CV: "https://www.researchgate.net/profile/Mighten_Yip"
   Other interests and hobbies: "hobbies"
   Resources:
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
