@@ -5,8 +5,9 @@ subtitle: Gently folding laundry with people in them.
 show-avatar: false
 
 ---
-![pumba](assets/img/warthog.jpg)
+![pumba](assets/img/warthog.JPG)
 
+![mt](assets/img/mthood2.JPG)
 
 ### my hero
 
