@@ -5,5 +5,5 @@ subtitle: Answering some of the W's
 show-avatar: false
 
 ---
-#![jan](/assets/img/janelia_me.jpeg)
+![jan](#/assets/img/janelia_me.jpeg)
 
