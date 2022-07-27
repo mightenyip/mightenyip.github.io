@@ -14,18 +14,18 @@ author: Mighten Yip
 navbar-links:
   About Me: "aboutme"
   CV: "https://www.researchgate.net/profile/Mighten_Yip"
-  Other interests and hobbies: "hobbies"
+  #Other interests and hobbies: "hobbies"
   Resources:
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
     - PBL@Georgia Tech: "http://pbl.gatech.edu/"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Nucleate Atlanta: "https://www.nucleate.xyz/"
   #Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.jpg"
+avatar: "/assets/img/Mighten-Yip-Headshot-B.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: false
@@ -41,7 +41,7 @@ favicon: "favicon.ico"
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "mighteny@example.com"
+  email: "mighteny@gatech.edu"
   instagram: mig10yip
   #github: mightenyip
   twitter: mig10yip
