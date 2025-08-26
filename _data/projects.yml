@@ -1,53 +1,65 @@
-- title: Neuromatic Devices — PatcherBot
-  image: /assets/img/projects/patcherbot.jpg
-  description: Designed and commercialized automated patch-clamp robotics; installs at Biogen, Max Planck, Imperial College.
-  tags: [robotics, neuroscience, ML]
-  details:
-    - type: link
-      text: Paper (JNE)
-      url: https://iopscience.iop.org/article/10.1088/1741-2552/ab1834
-    - type: video
-      url: https://www.youtube.com/watch?v=GeNs56jmmXU
-
-- title: Palate Therapeutics — taste-bud gene therapy
-  image: /assets/img/projects/palate.jpg
-  description: Pre-clinical oligo/gene therapy modulating sugar preference; $645K raised; Novo Nordisk Pathbreakers partnership.
-  tags: [therapeutics, gene-therapy, metabolism]
-  details:
-    - type: link
-      text: Public deck
-      url: https://example.com/palate-deck
-    - type: image
-      url: /assets/img/projects/palate-figure.png
-
-- title: Harvard — Whitesides Lab
-  image: /assets/img/projects/harvard.jpg
-  description: Paper-based gas sensor validated in IRB trial; optimized thread-based ion sensors for low-cost diagnostics.
-  tags: [diagnostics, materials, Harvard]
-  details:
-    - type: link
-      text: Group site
-      url: https://gmwgroup.harvard.edu
-    - type: link
-      text: Related publication
-      url: https://doi.org/REPLACE
-
-- title: Weill Cornell Medicine — Translational Neuroscience
-  image: /assets/img/projects/weill.jpg
-  description: Linked electrophysiology to patient-relevant outcomes in collaboration with clinical teams.
-  tags: [clinical, neuroscience, translational]
-  details:
-    - type: link
-      text: Lab page
-      url: https://weill.cornell.edu
-
 - title: PhD — Neural Engineering (Georgia Tech)
-  image: /assets/img/projects/phd.jpg
-  description: Built high-throughput electrophysiology tools and ML state machines for cellular recordings.
-  tags: [PhD, bioengineering, neuroscience]
+  image: /assets/img/projects/gt-seal.png
+  description: Built high-throughput electrophysiology tools and ML state machines for single-cellular recordings.
+  tags: [PhD, bioengineering, neuroscience, automation, robotics]
   details:
     - type: video
+      text: Deep learning-based real-time detection of neurons in brain slices for in vitro physiology
       url: https://youtu.be/eOjs0-wOM4s?si=YZNTIa11kODykjIW
     - type: link
       text: Dissertation
       url: https://repository.gatech.edu/entities/publication/640bef49-75ce-4675-b4e8-d253a55f2b8b
+
+- title: Palate Therapeutics — taste-bud siRNA therapy
+  image: /assets/img/projects/palate.jpg
+  description: Pre-clinical oligo therapy modulating sugar preference; $645K pre-seed raised; developed a strategic partnership with Novo Nordisk BioInnovation Hub. Managed all the technical and scientific programs while supporting the operational day-to-day and business development.
+  tags: [therapeutics, siRNA-therapy, metabolism]
+  details:
+    - type: link
+      text: Startup was incubated at IndieBio/SOSV Class 06 in NYC!
+      url: https://indiebio.co/company/palate-therapeutics/
+
+- title: Neuromatic Devices — PatcherBot
+  image: /assets/img/projects/patcherbot.jpg
+  description: Designed and commercialized automated patch-clamp robotics; installs at Biogen, Max Planck, Imperial College. The patcherBot was applied to multiple experimental pipelines for improved screening from pharmacology to optogenetics.
+  tags: [robotics, neuroscience, ML, pharmacology, organoids, optogenetics]
+  details:
+    - type: link
+      text: Application of the patcherBot for optogenetics! I managed and validated the robot in cross-collaboration with Janelia Research Campus (HHMI) and a micromanipulator company.
+      url: https://www.cell.com/neuron/fulltext/S0896-6273(23)00205-2
+    - type: link
+      text: Application of the patcherBot for pharmacology! 10x improvement for screening drugs in single-cell electrophysiology throughput.
+      url: https://www.sciencedirect.com/science/article/abs/pii/S0026895X24011337
+    - type: link
+      text: Application of the patcherBot in testing developing organoids! 
+      url: https://www.sciencedirect.com/science/article/abs/pii/S0165027023001176
+    - type: video
+      text: PatcherBot in action!
+      url: https://www.youtube.com/watch?v=GeNs56jmmXU
+
+- title: Clinical translation applications for cardiovascular disease 
+  image: /assets/img/projects/weill.png
+  description: During my time at Weill Cornell Medicine, I contributed and led projects in AR-guided surgery, rapid prototyping of interventional cardiac materials, and validation of advanced biomaterials in cross-collaboration with clinical teams.
+  tags: [clinical, cardiovascular, translational]
+  details:
+    - type: image
+      text: AR-Guided Surgery -- Co-developed an augmented-reality system for guiding interventional cardiologists during cardiac procedures, including stent placement. This involved system architecture prototyping, user feedback with physicians, and contributing to an invention disclosure.
+      url: /assets/img/projects/ar-hololens.png
+    - type: link
+      text: Rapid prototyping of interventional cardiac materials -- Invented a low-cost, additive manufacturing technique for shaping nitinol-based medical devices (e.g., heart stents), significantly reducing iteration cycles for device prototyping. This innovation streamlined design-testing loops from weeks to hours.
+      url: https://asmedigitalcollection.asme.org/openengineering/article/doi/10.1115/1.4062282/1163196
+    - type: link
+      text: Advanced biomaterials testing-- Contributed to experimental development of novel materials, including optically cured hydrogels for injectable devices and slippery liquid-infused porous surfaces for friction-reducing applications in surgical tools and implants.
+      url: https://pubs.rsc.org/en/content/articlelanding/2019/tb/c9tb00278b/unauth
+
+- title: Scalable microfluidic platforms for accessible diagnostics 
+  image: /assets/img/projects/harvard.png
+  description: While working as a Research Fellow at the Whitesides Research Group at Harvard, I supported projects across many different low-cost, scalable microfluidic platforms including a paper-based gas sensor for sleep apnea, optimized thread-based ion sensors for agricultural and clinical diagnostics, and a microfluidic sampling device for precision agriculture.
+  tags: [diagnostics, materials, microfluidics, agriculture]
+  details:
+    - type: link
+      text: Thread-based ion sensors
+      url: https://pubs.rsc.org/en/content/getauthorversionpdf/c8lc00352a
+    - type: link
+      text: Sampling device for precision agriculture
+      url: https://patents.google.com/patent/WO2021087467A2/
