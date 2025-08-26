@@ -41,10 +41,35 @@ body { color: $text; }
 .section-title { font-size: 1.4rem; margin: 1.25rem 0 .5rem; font-weight: 800; }
 
 .about-hero {
-  max-width: 680px; margin: 2rem auto 2.5rem; text-align: left;
+  max-width: 1000px; margin: 2rem auto 2.5rem;
 }
-.about-hero .name { margin: 0 0 .25rem; }
-.about-hero .tagline { color: #6b7280; margin-bottom: 1rem; }
+.hero-content {
+  display: grid; grid-template-columns: 300px 1fr; gap: 3rem; align-items: start;
+}
+.hero-left { text-align: center; }
+.hero-left .avatar {
+  width: 200px; height: 200px; border-radius: 999px; object-fit: cover;
+  display: block; margin: 0 auto 1rem; border: 2px solid rgba(0,0,0,.06);
+}
+.hero-left .name { margin: 0 0 .25rem; }
+.hero-left .tagline { color: #6b7280; margin-bottom: 1rem; }
+.hero-right h3 { margin: 0 0 1rem; font-size: 1.3rem; }
+.hero-right p { margin: 0 0 .75rem; line-height: 1.6; }
+.hero-right blockquote { 
+  margin: 1.5rem 0 0; padding: 1rem; 
+  border-left: 3px solid #2563eb; background: #f8fafc;
+  font-style: italic;
+}
+
+// Mobile responsive
+@media (max-width: 768px) {
+  .hero-content {
+    grid-template-columns: 1fr; gap: 2rem;
+  }
+  .hero-left .avatar {
+    width: 150px; height: 150px;
+  }
+}
 
 .social-list { list-style: none; padding: 0; margin: .75rem 0 1.5rem; }
 .social-list li { margin: .25rem 0; }
