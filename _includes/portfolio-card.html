@@ -1,0 +1,15 @@
+<div class="project-card">
+  {% if item.image %}<img src="{{ item.image }}" alt="{{ item.title }}" />{% endif %}
+  <div class="body">
+    <h3 class="title">{{ item.title }}</h3>
+    <p class="desc">{{ item.description }}</p>
+    <div class="meta">
+      {% for t in item.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+    </div>
+  </div>
+  {% if item.links %}
+  <div class="links">
+    {% for l in item.links %}<a class="link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.text }}</a>{% endfor %}
+  </div>
+  {% endif %}
+</div>

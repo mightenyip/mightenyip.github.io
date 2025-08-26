@@ -1,0 +1,41 @@
+// Make sure this file path matches what the theme expects: /assets/css/custom.scss
+
+$accent: #2563eb;
+$bg: #ffffff;
+$text: #111827;
+$muted: #6b7280;
+$card: #f8fafc; // slate-50
+
+// Base tweaks
+body { color: $text; }
+.post-preview, .page-content { max-width: 980px; }
+
+// Headline hero
+.hero {
+  padding: 3.5rem 0 2.25rem; text-align: center;
+}
+.hero h1 { font-size: 2.25rem; margin-bottom: .25rem; }
+.hero p { color: $muted; margin-bottom: 1rem; }
+.hero .cta { display: inline-flex; gap: .75rem; }
+.hero .btn-primary { background: $accent; color: white; border-radius: .6rem; padding: .65rem 1rem; }
+.hero .btn-ghost { border: 1px solid rgba(0,0,0,.08); border-radius: .6rem; padding: .65rem 1rem; color: $text; }
+
+// Project grid
+.projects-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap: 18px; }
+.project-card {
+  background: $card; border: 1px solid rgba(0,0,0,.06); border-radius: 14px;
+  overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,.03);
+  display: flex; flex-direction: column; transition: transform .08s ease, box-shadow .2s ease;
+}
+.project-card:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(0,0,0,.08); }
+.project-card img { width: 100%; height: 150px; object-fit: cover; }
+.project-card .body { padding: 14px 14px 12px; }
+.project-card .title { font-weight: 700; margin: 0 0 4px; }
+.project-card .desc { color: $muted; font-size: .95rem; margin: 0 0 10px; }
+.project-card .meta { display: flex; gap: 8px; flex-wrap: wrap; }
+.project-card .tag { font-size: .75rem; padding: 4px 8px; border-radius: 999px; background: #eef2ff; color: #3730a3; }
+.project-card .links { display: flex; gap: 10px; margin-top: auto; padding: 0 14px 14px; }
+.project-card .link { font-size: .9rem; color: $accent; }
+
+// Section titles
+.section-title { font-size: 1.4rem; margin: 1.25rem 0 .5rem; font-weight: 800; }

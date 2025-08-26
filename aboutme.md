@@ -1,9 +1,13 @@
 ---
 layout: page
-title: About me
-<!-- subtitle: Answering some of the W's -->
-show-avatar: false
-
+title: About
+subtitle: From PatcherBot to Palate — building at the edge of bio × robotics × AI
+cover-img: /assets/img/cover/lab-hero.jpg
 ---
-<!-- ![jan](/assets/img/janelia_me.jpeg)
+
+**Currently:** Founder @ Palate Therapeutics & Neuromatic Devices; building AI tools for experimental design.
+
+**Previously:** Nucleate Atlanta lead; PhD Bioengineering (Georgia Tech).
+
+**What I do:** Prototype fast, operate in the lab and the field, ship.
 

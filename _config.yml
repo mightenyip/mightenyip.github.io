@@ -1,7 +1,11 @@
 # --- Basic options --- #
 
-# Name of website
-title: Mighten Yip - Home
+# --- Basic options --- #
+
+# Branding
+title: Mighten Yip
+subtitle: Engineering‑driven biotech founder • Robotics • AI for life sciences
+url: https://mightenyip.github.io
 
 # Short description of your site
 description: A virtual proof that I'm awesome
@@ -12,21 +16,16 @@ author: Mighten Yip
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  #About Me: "aboutme"
-  CV: "https://scholar.google.com/citations?user=4PTlxQcAAAAJ&hl=en"
-  #Other interests and hobbies: "hobbies"
-  Resources:
-    # - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - PBL@Georgia Tech: "http://pbl.gatech.edu/"
-    - Nucleate Atlanta: "https://www.nucleate.xyz/"
-    - Neuromatic Devices: "https://neuromaticdevices.com/"
-  #Author's home: "https://deanattali.com"
+  About: /aboutme
+  Hobbies: /hobbies
+  Projects: /#projects
+  Blog: /
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/Mighten-Yip-headshot-B.png"
+avatar: /assets/img/avatar.jpg
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: false
@@ -42,26 +41,18 @@ favicon: "favicon.ico"
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "mighteny@gatech.edu"
-  instagram: mig10yip
-  #github: mightenyip
-  twitter: mig10yip
+  email: mightenyip@gmail.com
+  github: mightenyip
+  twitter: patcherBot
+  linkedin: mightenyip
   rss: false
-#  reddit: yourname
-  linkedin: "mighten-yip-ab95b174/"
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  youtube: user/deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
+
+# Look & feel
+link-col: "#111827"        # slate-900
+accent-col: "#2563eb"      # blue-600
+
+# Enable tags & search snippets
+keywords: [biotech, robotics, AI, portfolio, patcherbot, palate]
 
 # --- General options --- #
 

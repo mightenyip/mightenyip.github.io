@@ -1,0 +1,25 @@
+- title: PatcherBot — automated patch‑clamp robot
+  image: /assets/img/projects/patcherbot.jpg
+  description: Designed and commercialized robotics + ML state‑machine for neuro labs; installed at Biogen, Max Planck, Imperial College.
+  tags: [robotics, neuroscience, ML]
+  links:
+    - text: Case study
+      url: https://neuromaticdevices.com
+    - text: Paper
+      url: https://scholar.google.com
+
+- title: Palate Therapeutics — taste‑bud gene therapy
+  image: /assets/img/projects/palate.jpg
+  description: Pre‑clinical oligo/gene therapy targeting taste‑bud cells to modulate sugar preference; Novo Nordisk partnership.
+  tags: [therapeutics, gene‑therapy, metabolism]
+  links:
+    - text: Deck (public)
+      url: https://example.com/palate-deck
+
+- title: AI Scientist — autonomous experiment planning
+  image: /assets/img/projects/ai-scientist.jpg
+  description: Built agents to plan assays, auto‑analyze data, and write reports; integrated with lab notebooks and Slack.
+  tags: [AI, agents, tooling]
+  links:
+    - text: GitHub
+      url: https://github.com/mightenyip
