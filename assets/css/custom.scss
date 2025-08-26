@@ -106,14 +106,15 @@ body { color: $text; }
 .details-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  margin-top: 8px;
+  gap: 16px;
+  margin-top: 12px;
 }
 .detail-cell {
   border: 1px dashed rgba(0,0,0,.08);
   border-radius: 10px;
-  padding: 10px;
+  padding: 12px;
   background: #fff;
+  margin-bottom: 8px;
 }
 .detail-link { text-decoration: none; font-weight: 600; }
 .detail-image { width: 100%; height: 140px; object-fit: cover; border-radius: 8px; }

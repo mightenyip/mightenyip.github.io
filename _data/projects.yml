@@ -46,9 +46,8 @@
   description: Built high-throughput electrophysiology tools and ML state machines for cellular recordings.
   tags: [PhD, bioengineering, neuroscience]
   details:
-    - type: link
-      text: Google Scholar
-      url: https://scholar.google.com/citations?user=4PTlxQcAAAAJ&hl=en
+    - type: video
+      url: https://youtu.be/eOjs0-wOM4s?si=YZNTIa11kODykjIW
     - type: link
       text: Dissertation
-      url: https://REPLACE
+      url: https://repository.gatech.edu/entities/publication/640bef49-75ce-4675-b4e8-d253a55f2b8b
