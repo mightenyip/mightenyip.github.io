@@ -3,10 +3,10 @@
   description: Designed and commercialized robotics + ML state‑machine for neuro labs; installed at Biogen, Max Planck, Imperial College.
   tags: [robotics, neuroscience, ML]
   links:
-    - text: Case study
-      url: https://neuromaticdevices.com
+    - text: Scientist getting coffee, robot is patching
+      url: https://youtu.be/GeNs56jmmXU?si=sicfgLwPhns-5BBD
     - text: Paper
-      url: https://scholar.google.com
+      url: https://iopscience.iop.org/article/10.1088/1741-2552/ab1834
 
 - title: Palate Therapeutics — taste‑bud gene therapy
   image: /assets/img/projects/palate.jpg
