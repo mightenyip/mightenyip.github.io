@@ -44,11 +44,11 @@ body { color: $text; }
   max-width: 1000px; margin: 2rem auto 2.5rem;
 }
 .hero-content {
-  display: grid; grid-template-columns: 300px 1fr; gap: 3rem; align-items: start;
+  display: grid; grid-template-columns: 200px 1fr; gap: 2rem; align-items: start;
 }
 .hero-left { text-align: center; }
 .hero-left .avatar {
-  width: 200px; height: 200px; border-radius: 999px; object-fit: cover;
+  width: 120px; height: 120px; border-radius: 999px; object-fit: cover;
   display: block; margin: 0 auto 1rem; border: 2px solid rgba(0,0,0,.06);
 }
 .hero-left .name { margin: 0 0 .25rem; }
@@ -67,7 +67,7 @@ body { color: $text; }
     grid-template-columns: 1fr; gap: 2rem;
   }
   .hero-left .avatar {
-    width: 150px; height: 150px;
+    width: 100px; height: 100px;
   }
 }
 
