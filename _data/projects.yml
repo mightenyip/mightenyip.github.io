@@ -1,25 +1,54 @@
-- title: PatcherBot — automated patch‑clamp robot
+- title: Neuromatic Devices — PatcherBot
   image: /assets/img/projects/patcherbot.jpg
-  description: Designed and commercialized robotics + ML state‑machine for neuro labs; installed at Biogen, Max Planck, Imperial College.
+  description: Designed and commercialized automated patch-clamp robotics; installs at Biogen, Max Planck, Imperial College.
   tags: [robotics, neuroscience, ML]
-  links:
-    - text: Scientist getting coffee, robot is patching
-      url: https://youtu.be/GeNs56jmmXU?si=sicfgLwPhns-5BBD
-    - text: Paper
+  details:
+    - type: link
+      text: Paper (JNE)
       url: https://iopscience.iop.org/article/10.1088/1741-2552/ab1834
+    - type: video
+      url: https://www.youtube.com/watch?v=GeNs56jmmXU
 
-- title: Palate Therapeutics — taste‑bud gene therapy
+- title: Palate Therapeutics — taste-bud gene therapy
   image: /assets/img/projects/palate.jpg
-  description: Pre‑clinical oligo/gene therapy targeting taste‑bud cells to modulate sugar preference; Novo Nordisk partnership.
-  tags: [therapeutics, gene‑therapy, metabolism]
-  links:
-    - text: Deck (public)
+  description: Pre-clinical oligo/gene therapy modulating sugar preference; $645K raised; Novo Nordisk Pathbreakers partnership.
+  tags: [therapeutics, gene-therapy, metabolism]
+  details:
+    - type: link
+      text: Public deck
       url: https://example.com/palate-deck
+    - type: image
+      url: /assets/img/projects/palate-figure.png
 
-- title: AI Scientist — autonomous experiment planning
-  image: /assets/img/projects/ai-scientist.jpg
-  description: Built agents to plan assays, auto‑analyze data, and write reports; integrated with lab notebooks and Slack.
-  tags: [AI, agents, tooling]
-  links:
-    - text: GitHub
-      url: https://github.com/mightenyip
+- title: Harvard — Whitesides Lab
+  image: /assets/img/projects/harvard.jpg
+  description: Paper-based gas sensor validated in IRB trial; optimized thread-based ion sensors for low-cost diagnostics.
+  tags: [diagnostics, materials, Harvard]
+  details:
+    - type: link
+      text: Group site
+      url: https://gmwgroup.harvard.edu
+    - type: link
+      text: Related publication
+      url: https://doi.org/REPLACE
+
+- title: Weill Cornell Medicine — Translational Neuroscience
+  image: /assets/img/projects/weill.jpg
+  description: Linked electrophysiology to patient-relevant outcomes in collaboration with clinical teams.
+  tags: [clinical, neuroscience, translational]
+  details:
+    - type: link
+      text: Lab page
+      url: https://weill.cornell.edu
+
+- title: PhD — Neural Engineering (Georgia Tech)
+  image: /assets/img/projects/phd.jpg
+  description: Built high-throughput electrophysiology tools and ML state machines for cellular recordings.
+  tags: [PhD, bioengineering, neuroscience]
+  details:
+    - type: link
+      text: Google Scholar
+      url: https://scholar.google.com/citations?user=4PTlxQcAAAAJ&hl=en
+    - type: link
+      text: Dissertation
+      url: https://REPLACE

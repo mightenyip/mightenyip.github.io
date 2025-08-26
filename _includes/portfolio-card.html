@@ -1,15 +1,55 @@
-<div class="project-card">
-  {% if item.image %}<img src="{{ item.image }}" alt="{{ item.title }}" />{% endif %}
-  <div class="body">
+<div class="project-row">
+  <div class="thumb">
+    {% if item.image %}
+      <img src="{{ item.image }}" alt="{{ item.title }}" loading="lazy">
+    {% endif %}
+  </div>
+
+  <div class="main">
     <h3 class="title">{{ item.title }}</h3>
-    <p class="desc">{{ item.description }}</p>
-    <div class="meta">
-      {% for t in item.tags %}<span class="tag">{{ t }}</span>{% endfor %}
-    </div>
+
+    {% if item.tags %}
+      <div class="meta">
+        {% for t in item.tags %}
+          <span class="tag">{{ t }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if item.description %}
+      <p class="desc">{{ item.description }}</p>
+    {% endif %}
+
+    {% if item.details and item.details.size > 0 %}
+      <div class="details-grid">
+        {% for d in item.details limit:2 %}
+          <div class="detail-cell">
+            {% if d.type == "link" %}
+              <a class="detail-link" href="{{ d.url }}" target="_blank" rel="noopener">
+                {{ d.text | default: d.url }}
+              </a>
+
+            {% elsif d.type == "image" %}
+              <img class="detail-image" src="{{ d.url }}" alt="{{ d.alt | default: item.title }}" loading="lazy">
+
+            {% elsif d.type == "video" %}
+              {%- assign yid = d.url | replace: "https://youtu.be/", "" | replace: "https://www.youtube.com/watch?v=", "" | split: "&" | first -%}
+              <div class="video-wrap">
+                <iframe
+                  src="https://www.youtube.com/embed/{{ yid }}"
+                  title="Video"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen>
+                </iframe>
+              </div>
+
+            {% else %}
+              {{ d | jsonify }}
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
   </div>
-  {% if item.links %}
-  <div class="links">
-    {% for l in item.links %}<a class="link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.text }}</a>{% endfor %}
-  </div>
-  {% endif %}
 </div>
