@@ -1,0 +1,9 @@
+<ul class="social-list">
+  {% assign s = site.social-network-links %}
+  {% if s.email %}<li><a href="mailto:{{ s.email }}"><i class="fas fa-envelope"></i> Email</a></li>{% endif %}
+  {% if s.twitter %}<li><a href="https://twitter.com/{{ s.twitter }}" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> Twitter</a></li>{% endif %}
+  {% if s.github %}<li><a href="https://github.com/{{ s.github }}" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></li>{% endif %}
+  {% if s.linkedin %}<li><a href="https://www.linkedin.com/in/{{ s.linkedin }}/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a></li>{% endif %}
+  {% if s.scholar %}<li><a href="{{ s.scholar }}" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Google Scholar</a></li>{% endif %}
+  {% if s.orcid %}<li><a href="{{ s.orcid }}" target="_blank" rel="noopener"><i class="fab fa-orcid"></i> ORCID</a></li>{% endif %}
+</ul>

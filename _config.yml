@@ -16,9 +16,8 @@ author: Mighten Yip
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About: /aboutme
-  Hobbies: /hobbies
-  Projects: /#projects
+  About: /
+  Projects: /projects
   Blog: /
 
 # --- Logo --- #
@@ -45,6 +44,8 @@ social-network-links:
   github: mightenyip
   twitter: patcherBot
   linkedin: mightenyip
+  scholar: "https://scholar.google.com/citations?user=4PTlxQcAAAAJ&hl=en"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
   rss: false
 
 # Look & feel
