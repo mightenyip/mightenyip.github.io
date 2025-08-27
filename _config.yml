@@ -39,6 +39,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  pages:
+    output: true
+    permalink: /:path/
 
 defaults:
   - scope: { path: "" }
@@ -53,10 +56,14 @@ defaults:
       header:
         overlay_color: "#000"
         overlay_filter: 0.3
+  - scope: { path: "_pages" }
+    values:
+      layout: single
+      author_profile: false
 
 # Look & feel
 minimal_mistakes_skin: "default"  # try: "air", "contrast", "dark"
-logo: "/assets/img/Mighten-Yip-headshot-B.png"
+logo: "/assets/img/Mighten-Y.png"
 
 paginate: 5
 paginate_path: /page:num/
