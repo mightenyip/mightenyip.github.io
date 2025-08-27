@@ -1,5 +1,5 @@
 ---
-title: "Palate Therapeutics — taste-bud siRNA therapy"
+title: "Palate Therapeutics: taste bud therapy for metabolic diseases"
 excerpt: "Pre-clinical oligonucleotide therapy modulating sugar preference; we have since become a CPG company using the same hypothesis with a short-lasting mint."
 header:
   teaser: /assets/img/projects/palate.png
