@@ -13,7 +13,7 @@ plugins:
 author:
   name: "Mighten Yip, PhD"
   avatar: "/assets/img/MY-headshot-851.jpg"
-  bio: "I build robotics, therapeutics, and AI systems that ship."
+  bio: "I love building systems that deploy. Recently, I have worked in object-detection using ML, biotech/neuroscience, and electromechanical control systems."
   location: "Los Angeles"
   links:
     - label: "LinkedIn"
