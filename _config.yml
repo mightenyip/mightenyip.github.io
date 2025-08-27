@@ -1,40 +1,68 @@
-# --- Basic options --- #
+title: "Mighten Yip"
+description: "Engineering-driven biotech founder • Robotics • AI for life sciences"
+url: "https://mightenyip.github.io"
+# baseurl: ""   # keep blank for user sites
 
-# Name of website
-title: Mighten Yip - Home
+# Minimal Mistakes via remote_theme
+remote_theme: "mmistakes/minimal-mistakes@4.26.0"
 
-# Short description of your site
-description: A virtual proof that I'm awesome
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
 
-# Your name to show in the footer
-author: Mighten Yip
+# Author block (shows in sidebars, footer, etc.)
+author:
+  name: "Mighten Yip"
+  avatar: "/assets/img/MY-headshot-851.jpg"
+  bio: "I build robotics, therapeutics, and AI systems that ship."
+  location: "San Francisco Bay Area"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:mightenyip@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/mightenyip"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/patcherBot"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/mightenyip/"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=4PTlxQcAAAAJ&hl=en"
 
-# --- List of links in the navigation bar --- #
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
-navbar-links:
-  #About Me: "aboutme"
-  CV: "https://scholar.google.com/citations?user=4PTlxQcAAAAJ&hl=en"
-  #Other interests and hobbies: "hobbies"
-  Resources:
-    # - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - PBL@Georgia Tech: "http://pbl.gatech.edu/"
-    - Nucleate Atlanta: "https://www.nucleate.xyz/"
-    - Neuromatic Devices: "https://neuromaticdevices.com/"
-  #Author's home: "https://deanattali.com"
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: single
+      author_profile: true
+  - scope: { path: "_projects" }
+    values:
+      layout: single
+      author_profile: false
+      classes: wide            # makes project pages wider
+      header:
+        overlay_color: "#000"
+        overlay_filter: 0.3
 
-# --- Logo --- #
+# Look & feel
+minimal_mistakes_skin: "default"  # try: "air", "contrast", "dark"
+logo: "/assets/img/MY-headshot-851.jpg"
 
-# Image to show in the navigation bar - works best with a square image
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/Mighten-Yip-headshot-B.png"
+paginate: 5
+paginate_path: /page:num/
 
-# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: false
-
-# If you want to have an image logo in the top-left corner instead of the title text,
-# then specify the following parameter
-#title-img: /path/to/image
-favicon: "favicon.ico"
+# SEO
+repository: "mightenyip/mightenyip.github.io"
 
 # --- Footer options --- #
 
