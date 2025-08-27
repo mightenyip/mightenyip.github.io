@@ -2,7 +2,7 @@
 title: "Clinical translation applications for cardiovascular disease"
 excerpt: "AR-guided surgery, rapid prototyping, and advanced biomaterials at Weill Cornell Medicine."
 header:
-  teaser: /assets/img/projects/weill.png
+  teaser: /assets/img/projects/weill2.png
 tags: [clinical, cardiovascular, translational]
 order: 4
 ---

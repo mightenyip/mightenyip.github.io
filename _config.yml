@@ -13,26 +13,21 @@ plugins:
 
 # Author block (shows in sidebars, footer, etc.)
 author:
-  name: "Mighten Yip"
+  name: "Mighten Yip, PhD"
   avatar: "/assets/img/MY-headshot-851.jpg"
   bio: "I build robotics, therapeutics, and AI systems that ship."
-  location: "San Francisco Bay Area"
+  location: "Los Angeles"
   links:
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:mightenyip@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/mightenyip/"
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/mightenyip"
     - label: "Twitter"
       icon: "fab fa-twitter"
       url: "https://twitter.com/patcherBot"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/mightenyip/"
-    - label: "Google Scholar"
-      icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=4PTlxQcAAAAJ&hl=en"
+    
 
 # Collections
 collections:
@@ -76,20 +71,7 @@ paginate_path: /page:num/
 # SEO
 repository: "mightenyip/mightenyip.github.io"
 
-# Footer links
-footer_links:
-  - label: "Email"
-    icon: "fas fa-envelope"
-    url: "mailto:mightenyip@gmail.com"
-  - label: "GitHub"
-    icon: "fab fa-github"
-    url: "https://github.com/mightenyip"
-  - label: "Twitter"
-    icon: "fab fa-twitter"
-    url: "https://twitter.com/patcherBot"
-  - label: "LinkedIn"
-    icon: "fab fa-linkedin"
-    url: "https://www.linkedin.com/in/mightenyip/"
+
 
 # Disable feed link
 feed:
