@@ -47,9 +47,13 @@ body { color: $text; }
   display: grid; grid-template-columns: 200px 1fr; gap: 2rem; align-items: start;
 }
 .hero-left { text-align: center; }
-.hero-left .avatar,
-.about-hero .hero-left .avatar,
-.about-hero img.avatar {
+/* Override theme defaults with maximum specificity */
+body .hero-left .avatar,
+body .about-hero .hero-left .avatar,
+body .about-hero img.avatar,
+body .page .hero-left .avatar,
+body .page .about-hero .hero-left .avatar,
+body .page .about-hero img.avatar {
   width: 60px !important; height: 60px !important; border-radius: 999px; object-fit: cover;
   display: block; margin: 0 auto 1rem; border: 2px solid rgba(0,0,0,.06);
   max-width: 60px !important; max-height: 60px !important;
@@ -69,9 +73,12 @@ body { color: $text; }
   .hero-content {
     grid-template-columns: 1fr; gap: 2rem;
   }
-  .hero-left .avatar,
-  .about-hero .hero-left .avatar,
-  .about-hero img.avatar {
+  body .hero-left .avatar,
+  body .about-hero .hero-left .avatar,
+  body .about-hero img.avatar,
+  body .page .hero-left .avatar,
+  body .page .about-hero .hero-left .avatar,
+  body .page .about-hero img.avatar {
     width: 50px !important; height: 50px !important;
     max-width: 50px !important; max-height: 50px !important;
   }
