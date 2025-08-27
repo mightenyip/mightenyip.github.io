@@ -8,8 +8,6 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.0"
 
 plugins:
   - jekyll-include-cache
-  - jekyll-feed
-  - jekyll-sitemap
 
 # Author block (shows in sidebars, footer, etc.)
 author:
