@@ -91,6 +91,10 @@ footer_links:
     icon: "fab fa-linkedin"
     url: "https://www.linkedin.com/in/mightenyip/"
 
+# Disable feed link
+feed:
+  path: false
+
 #navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
