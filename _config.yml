@@ -1,66 +1,90 @@
-# --- Basic options --- #
+# Site settings
+title: "Mighten Yip"
+subtitle: "Engineering-driven biotech founder • Robotics • AI for life sciences"
+name: "Mighten Yip"
+description: "Engineering-driven biotech founder • Robotics • AI for life sciences"
+url: "https://mightenyip.github.io"
+baseurl: ""
+repository: "mightenyip/mightenyip.github.io"
+teaser: "Engineering-driven biotech founder • Robotics • AI for life sciences"
 
-# --- Basic options --- #
+# Site Author
+author:
+  name: "Mighten Yip"
+  avatar: "/assets/img/MY-headshot-851.jpg"
+  bio: "Engineering-driven biotech founder • Robotics • AI for life sciences"
+  location: "San Francisco Bay Area"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mightenyip@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mightenyip"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/patcherBot"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/mightenyip"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=4PTlxQcAAAAJ&hl=en"
 
-# Branding
-title: DMs open, let's chat!
-subtitle: Engineering‑driven biotech founder • Robotics • AI for life sciences
-url: https://mightenyip.github.io
+# Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mightenyip@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mightenyip"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/patcherBot"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/mightenyip"
 
-# Short description of your site
-description: A virtual proof that I'm awesome
+# Navigation
+masthead_title: "Mighten Yip"
+navigation:
+  main:
+    - title: "About"
+      url: "/"
+    - title: "Projects"
+      url: "/projects/"
 
-# Your name to show in the footer
-author: Mighten Yip
+# Minimal Mistakes Theme Settings
+theme: minimal-mistakes-jekyll
 
-# --- List of links in the navigation bar --- #
+# Site Logo
+logo: "/assets/img/MY-headshot-851.jpg"
 
-navbar-links:
-  About: /
-  Projects: /projects
-  Google Scholar: https://scholar.google.com/citations?user=4PTlxQcAAAAJ&hl=en
+# Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mightenyip@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mightenyip"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/patcherBot"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/mightenyip"
 
-# --- Logo --- #
-
-# Image to show in the navigation bar - works best with a square image
-# Remove this parameter if you don't want an image in the navbar
-# avatar: /assets/img/MY-headshot-851.jpg
-
-# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-# round-avatar: true
-
-# Avatar for landing page (separate from navbar)
-landing-avatar: /assets/img/MY-headshot-851.jpg
-
-# If you want to have an image logo in the top-left corner instead of the title text,
-# then specify the following parameter
-#title-img: /path/to/image
-favicon: "favicon.ico"
-
-# --- Footer options --- #
-
-# Select the social network links that you want to show in the footer.
-# Uncomment the links you want to show and add your information to each one.
-# If you don't want to show a link to an RSS feed, set rss to "false".
-social-network-links:
-  #email: mightenyip@gmail.com
-  #github: mightenyip
-  #twitter: patcherBot
-  #linkedin: mightenyip
-  #Google Scholar: "https://scholar.google.com/citations?user=4PTlxQcAAAAJ&hl=en"
-  #orcid: "https://orcid.org/0000-0000-0000-0000"
-  rss: false
-
-# Look & feel
-link-col: "#111827"        # slate-900
-accent-col: "#2563eb"      # blue-600
-
-# Enable tags & search snippets
+# Site Keywords
 keywords: [biotech, robotics, AI, portfolio, patcherbot, palate]
 
-# ensure your CSS is included last
-custom-css:
-  - /assets/css/custom.scss
+# Custom CSS
+assets:
+  css:
+    - /assets/css/custom.scss
 
 # --- General options --- #
 

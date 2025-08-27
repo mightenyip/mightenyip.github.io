@@ -1,8 +1,9 @@
 ---
-layout: page
-title: Projects
-subtitle: Selected work across robotics, bio, and AI
-permalink: /projects
+layout: single
+title: "Projects"
+subtitle: "Selected work across robotics, bio, and AI"
+permalink: /projects/
+classes: wide
 ---
 
 <style>
