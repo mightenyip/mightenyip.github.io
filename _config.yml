@@ -14,7 +14,7 @@ plugins:
 # Author block (shows in sidebars, footer, etc.)
 author:
   name: "Mighten Yip"
-  avatar: "/assets/img/Mighten-Yip-headshot-B.png"
+  avatar: "/assets/img/MY-headshot-851.jpg"
   bio: "I build robotics, therapeutics, and AI systems that ship."
   location: "San Francisco Bay Area"
   links:
@@ -63,7 +63,7 @@ defaults:
 
 # Look & feel
 minimal_mistakes_skin: "default"  # try: "air", "contrast", "dark"
-logo: "/assets/img/Mighten-Y.png"
+logo: "/assets/img/MY-headshot-851.jpg"
 
 paginate: 5
 paginate_path: /page:num/
