@@ -99,13 +99,23 @@ body .page .about-hero img.avatar {
 
 .project-row + .project-row { margin-top: 24px; }
 
-.project-row .thumb img {
-  width: 100%;
+/* Force consistent project thumbnail sizes */
+.project-row .thumb {
+  width: 80px;
   height: 80px;
+  flex-shrink: 0;
+}
+
+.project-row .thumb img,
+body .project-row .thumb img,
+body .page .project-row .thumb img {
+  width: 80px !important;
+  height: 80px !important;
   object-fit: cover;
   border-radius: 8px;
   display: block;
   background: #e5e7eb;
+  flex-shrink: 0;
 }
 
 .project-row .title { margin: 0 0 6px; font-weight: 800; }
@@ -147,8 +157,11 @@ body .page .about-hero img.avatar {
   .project-row {
     grid-template-columns: 60px 1fr;
   }
-  .project-row .thumb img {
-    height: 60px;
+  .project-row .thumb img,
+  body .project-row .thumb img,
+  body .page .project-row .thumb img {
+    width: 60px !important;
+    height: 60px !important;
   }
   .details-grid {
     grid-template-columns: 1fr;
