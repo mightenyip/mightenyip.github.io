@@ -17,4 +17,7 @@ Towards these aims, this thesis demonstrated the first robotic system to perform
 **Machine learning-based object detection for real-time detection of neurons in noisy brain tissue:**
 {% include video id="eOjs0-wOM4s" provider="youtube" %}
 
+**The patcherBot (beta) at work:**
+{% include video id="GeNs56jmmXU" provider="youtube" %}
+
 **Dissertation:** [Georgia Tech Repository](https://repository.gatech.edu/entities/publication/640bef49-75ce-4675-b4e8-d253a55f2b8b){: .btn .btn--primary}
