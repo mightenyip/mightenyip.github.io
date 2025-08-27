@@ -7,7 +7,7 @@ classes: wide
 
 A selection of academic, startup, and translational work.
 
-{% raw %}{% assign projects = site.projects | sort: 'title' %}
+{% assign projects = site.projects | sort: 'title' %}
 
 <div class="feature__wrapper">
   {% for project in projects %}
@@ -36,4 +36,4 @@ A selection of academic, startup, and translational work.
       </div>
     </div>
   {% endfor %}
-</div>{% endraw %}
+</div>
