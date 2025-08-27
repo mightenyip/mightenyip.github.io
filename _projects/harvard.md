@@ -1,12 +1,19 @@
 ---
-title: "Harvard — Whitesides Lab"
-excerpt: "Paper-based gas sensor (IRB trial) + thread-based ion sensors for low-cost diagnostics."
+title: "Scalable microfluidic platforms for accessible diagnostics"
+excerpt: "Paper-based gas sensors, thread-based ion sensors, and microfluidic sampling devices at Harvard Whitesides Lab."
 header:
   teaser: /assets/img/projects/harvard.png
-tags: [diagnostics, materials, Harvard]
+tags: [diagnostics, materials, microfluidics, agriculture]
 ---
 
-- Designed & fabricated a paper-based gas sensor for respiration monitoring (inkjet/screen printing), validated in an IRB-approved clinical trial.
-- Optimized thread-based ion-sensing electrodes for agriculture & health diagnostics.
+While working as a Research Fellow at the Whitesides Research Group at Harvard, I supported projects across many different low-cost, scalable microfluidic platforms including a paper-based gas sensor for sleep apnea, optimized thread-based ion sensors for agricultural and clinical diagnostics, and a microfluidic sampling device for precision agriculture.
 
-[Group site](https://gmwgroup.harvard.edu){: .btn }  [Related pub](https://doi.org/REPLACE){: .btn }
+## Key Publications
+
+**Thread-based ion sensors:** [Lab on a Chip](https://pubs.rsc.org/en/content/getauthorversionpdf/c8lc00352a){: .btn .btn--primary}  
+*Optimized thread-based ion-sensing electrodes for agricultural and clinical diagnostics.*
+
+**Sampling device for precision agriculture:** [Patent](https://patents.google.com/patent/WO2021087467A2/){: .btn .btn--primary}  
+*Microfluidic sampling device for precision agriculture applications.*
+
+[Whitesides Research Group](https://gmwgroup.harvard.edu){: .btn }

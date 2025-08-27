@@ -4,21 +4,20 @@ excerpt: "Automated patch-clamp robotics; installs at Biogen, Max Planck, Imperi
 header:
   teaser: /assets/img/projects/patcherbot.jpg   # card image
   overlay_image: /assets/img/projects/patcherbot.jpg
-tags: [robotics, neuroscience, ML]
+tags: [robotics, neuroscience, ML, pharmacology, organoids, optogenetics]
 ---
 
-Designed and commercialized automated patch-clamp robotics and ML state machines.
-Revenue >$200k; installations at Biogen, Max Planck, and Imperial College.
+Designed and commercialized automated patch-clamp robotics; installs at Biogen, Max Planck, Imperial College. The patcherBot was applied to multiple experimental pipelines for improved screening from pharmacology to optogenetics.
 
-{% include feature_row
-  id="pb-row"
-  type="left"
-  caption="Watch the robot in action"
-  img="/assets/img/projects/patcherbot.jpg"
-  title="Demo video"
-  btn_label="YouTube"
-  btn_class="btn--primary"
-  btn_url="https://youtu.be/GeNs56jmmXU"
-%}
+{% include video id="GeNs56jmmXU" provider="youtube" %}
 
-**Paper:** [Journal of Neural Engineering](https://iopscience.iop.org/article/10.1088/1741-2552/ab1834)
+## Applications & Publications
+
+**Optogenetics Application:** [Cell/Neuron Paper](https://www.cell.com/neuron/fulltext/S0896-6273(23)00205-2){: .btn .btn--primary}  
+*Managed and validated the robot in cross-collaboration with Janelia Research Campus (HHMI) and a micromanipulator company.*
+
+**Pharmacology Application:** [Journal of Neuroscience Methods](https://www.sciencedirect.com/science/article/abs/pii/S0026895X24011337){: .btn .btn--primary}  
+*10x improvement for screening drugs in single-cell electrophysiology throughput.*
+
+**Organoid Testing:** [Journal of Neuroscience Methods](https://www.sciencedirect.com/science/article/abs/pii/S0165027023001176){: .btn .btn--primary}  
+*Application of the PatcherBot in testing developing organoids!*

@@ -1,14 +1,11 @@
 ---
-title: "Palate Therapeutics — taste-bud gene therapy"
-excerpt: "Pre-clinical oligo/gene therapy modulating sugar preference; Novo Nordisk partnership."
+title: "Palate Therapeutics — taste-bud siRNA therapy"
+excerpt: "Pre-clinical oligo therapy modulating sugar preference; $645K pre-seed raised; Novo Nordisk partnership."
 header:
-  teaser: /assets/img/projects/palate.jpg
-tags: [therapeutics, gene-therapy, metabolism]
+  teaser: /assets/img/projects/palate.png
+tags: [therapeutics, siRNA-therapy, metabolism]
 ---
 
-Pre-clinical program targeting taste-bud cells to modulate sugar preference.
+Pre-clinical oligo therapy modulating sugar preference; $645K pre-seed raised; developed a strategic partnership with Novo Nordisk BioInnovation Hub. Managed all the technical and scientific programs while supporting the operational day-to-day and business development.
 
-- Raised ~$645K pre-seed; Novo Nordisk Pathbreakers partnership.
-- Oligo/gene therapy; in vitro & ex vivo validation.
-
-[Public Deck](https://example.com/palate-deck){: .btn .btn--primary }
+**Startup was incubated at IndieBio/SOSV Class 06 in NYC!** [IndieBio Profile](https://indiebio.co/company/palate-therapeutics/){: .btn .btn--primary}
