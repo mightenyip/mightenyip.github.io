@@ -58,6 +58,10 @@ accent-col: "#2563eb"      # blue-600
 # Enable tags & search snippets
 keywords: [biotech, robotics, AI, portfolio, patcherbot, palate]
 
+# ensure your CSS is included last
+custom-css:
+  - /assets/css/custom.scss
+
 # --- General options --- #
 
 # Select which social network share links to show in posts
