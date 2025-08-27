@@ -1,16 +1,15 @@
 ---
-title: "Neuromatic Devices — PatcherBot"
-excerpt: "Automated patch-clamp robotics; installs at Biogen, Max Planck, Imperial College."
+title: "Neuromatic Devices: Bootstrapped spinout from my PhD"
+excerpt: "Automated patch-clamp robotics; installs at academic institutions and pharma companies around the world."
 header:
   teaser: /assets/img/projects/patcherbot.jpg   # card image
   overlay_image: /assets/img/projects/patcherbot.jpg
-tags: [robotics, neuroscience, ML, pharmacology, organoids, optogenetics]
+tags: [robotics, neuroscience, pharmacology, organoids, optogenetics]
 order: 3
 ---
 
-Designed and commercialized automated patch-clamp robotics; installs at Biogen, Max Planck, Imperial College. The patcherBot was applied to multiple experimental pipelines for improved screening from pharmacology to optogenetics.
+I designed and commercialized the PatcherBot, an automated patch-clamp robot. Multiple custom builds, installs, and deployments at academic and pharma institutions around the world such as Biogen, Max Planck, Imperial College, etc. The startup had over 2 dozen deployments and over $200k in revenue. The PatcherBot was applied to multiple experimental pipelines for improved screening from pharmacology to optogenetics.
 
-{% include video id="GeNs56jmmXU" provider="youtube" %}
 
 ## Applications & Publications
 
