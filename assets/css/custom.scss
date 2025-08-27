@@ -59,3 +59,10 @@ figure img[src*="ar-hololens"] {
   margin: 0 auto;
   display: block;
 }
+
+// Hide dates on project pages
+.page__date,
+.archive__item-date,
+.page__meta {
+  display: none !important;
+}
