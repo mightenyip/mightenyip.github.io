@@ -65,6 +65,11 @@ defaults:
 minimal_mistakes_skin: "default"  # try: "air", "contrast", "dark"
 logo: "/assets/img/MY-headshot-851.jpg"
 
+# Custom CSS
+assets:
+  css:
+    - /assets/css/custom.scss
+
 paginate: 5
 paginate_path: /page:num/
 

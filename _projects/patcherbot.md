@@ -5,6 +5,7 @@ header:
   teaser: /assets/img/projects/patcherbot.jpg   # card image
   overlay_image: /assets/img/projects/patcherbot.jpg
 tags: [robotics, neuroscience, ML, pharmacology, organoids, optogenetics]
+order: 3
 ---
 
 Designed and commercialized automated patch-clamp robotics; installs at Biogen, Max Planck, Imperial College. The patcherBot was applied to multiple experimental pipelines for improved screening from pharmacology to optogenetics.

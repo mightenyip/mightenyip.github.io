@@ -4,6 +4,7 @@ excerpt: "High-throughput electrophysiology and ML state machines."
 header:
   teaser: /assets/img/projects/gt-seal.png
 tags: [PhD, bioengineering, neuroscience, automation, robotics]
+order: 1
 ---
 
 Built high-throughput electrophysiology tools and ML state machines for single-cellular recordings.

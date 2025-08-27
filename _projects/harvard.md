@@ -4,6 +4,7 @@ excerpt: "Paper-based gas sensors, thread-based ion sensors, and microfluidic sa
 header:
   teaser: /assets/img/projects/harvard.png
 tags: [diagnostics, materials, microfluidics, agriculture]
+order: 5
 ---
 
 While working as a Research Fellow at the Whitesides Research Group at Harvard, I supported projects across many different low-cost, scalable microfluidic platforms including a paper-based gas sensor for sleep apnea, optimized thread-based ion sensors for agricultural and clinical diagnostics, and a microfluidic sampling device for precision agriculture.

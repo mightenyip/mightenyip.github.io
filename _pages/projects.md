@@ -7,7 +7,7 @@ classes: wide
 
 A selection of academic, startup, and translational work.
 
-{% assign projects = site.projects | sort: 'title' %}
+{% assign projects = site.projects | sort: 'order' %}
 
 <div class="feature__wrapper">
   {% for project in projects %}
