@@ -23,6 +23,9 @@ header:
 
 **Founder @ Palate Therapeutics** (CPG mint and therapeutic strategy for reducing sugar consumption in metabolic diseases) & **Neuromatic Devices** (AI and robotic tools for electrophysiology and neuroscience).
 
-Past work has included: object-detection using ML, biotech/neuroscience, and electromechanical control systems.
+Past work has included: object-detection using ML, biotech/neuroscience, and electromechanical control systems. Check out my projects for more about my portfolio!
 
 Previously: Founded Nucleate Atlanta; PhD Bioengineering (Georgia Tech), MS/BS Biomedical/Mechanical Engineering (USC).
+
+{: .text-center}
+**[View my projects →](/projects/)**{: .btn .btn--primary .btn--large}
