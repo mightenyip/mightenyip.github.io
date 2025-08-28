@@ -1,5 +1,6 @@
 ---
 layout: splash
+title: "Mighten Yip"
 permalink: /
 header:
   overlay_color: "#000"
@@ -13,7 +14,7 @@ header:
   caption: "Photo credit: **Mighten Yip**"
 ---
 
-## About Me
+# About Me
 
 **Founder @ Palate Therapeutics** (CPG mint and therapeutic strategy for reducing sugar consumption in metabolic diseases) & **Neuromatic Devices** (AI and robotic tools for neuroscience).
 
@@ -21,16 +22,17 @@ Past work has included: object-detection using ML, biotech/neuroscience, and ele
 
 Previously: Nucleate Atlanta lead; PhD Bioengineering (Georgia Tech).
 
-{% include feature_row id="intro" type="center" %}
+---
 
-## Connect
+# Connect
 
 {: .text-center}
+
 - [<i class="fas fa-envelope"></i> Email](mailto:mightenyip@gmail.com)
 - [<i class="fab fa-github"></i> GitHub](https://github.com/mightenyip){:target="_blank"}
 - [<i class="fab fa-twitter"></i> Twitter](https://twitter.com/patcherBot){:target="_blank"}
 - [<i class="fab fa-linkedin"></i> LinkedIn](https://www.linkedin.com/in/mightenyip/){:target="_blank"}
-- [<i class="fas fa-graduation-cap"></i> Google Scholar](https://scholar.google.com/citations?user=4PTlxQcAAAAJ&hl=en){:target="_blank"}
+- [<i class="fab fa-graduation-cap"></i> Google Scholar](https://scholar.google.com/citations?user=4PTlxQcAAAAJ&hl=en){:target="_blank"}
 
 
 
