@@ -511,21 +511,22 @@ footer .footer-custom-content {
 
 .blog-tags {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #999;
-  font-size: 0.9375rem;
+  color: #ccc;
+  font-size: 0.75rem;
   margin-bottom: 1.875rem;
+  opacity: 0.7;
 }
 
 .blog-tags a {
-  color: {{ site.link-col | default: "#008AFF" }};
+  color: #999;
   text-decoration: none;
   padding: 0 0.3125rem;
 }
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: {{ site.hover-col | default: "#0085A1" }};
-  background-color: #EEE;
+  color: #666;
+  background-color: #f5f5f5;
 }
 
 .post-preview .blog-tags {
