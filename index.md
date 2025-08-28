@@ -1,14 +1,12 @@
 ---
 layout: splash
-title: "Mighten Yip"
+title: "Mighten Yip, PhD"
 permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: 0.3
   overlay_image: /assets/img/projects/robot-ap-ai.png
   actions:
-    - label: "View Projects"
-      url: /projects/
     - label: "LinkedIn"
       url: https://www.linkedin.com/in/mightenyip/
     - label: "GitHub"
