@@ -1,9 +1,9 @@
 ---
 title: "Scalable microfluidic platforms for accessible diagnostics"
-excerpt: "Paper-based gas sensors, thread-based ion sensors, and microfluidic sampling devices at Harvard Whitesides Lab."
+excerpt: "Paper-based gas sensors, thread-based ion sensors, and microfluidic sampling devices at Harvard."
 header:
   teaser: /assets/img/projects/harvard.png
-tags: [diagnostics, materials, microfluidics, agriculture]
+# tags: [diagnostics, materials, microfluidics, agriculture]
 order: 5
 ---
 
@@ -18,3 +18,7 @@ While working as a Research Fellow at the Whitesides Research Group at Harvard, 
 *Microfluidic sampling device for precision agriculture applications.*
 
 [Whitesides Research Group](https://gmwgroup.harvard.edu){: .btn }
+
+---
+
+**Tags:** diagnostics, materials, microfluidics, agriculture

@@ -3,7 +3,7 @@ title: "Clinical translation applications for cardiovascular disease"
 excerpt: "AR-guided surgery, rapid prototyping, and advanced biomaterials at Weill Cornell Medicine."
 header:
   teaser: /assets/img/projects/weill2.png
-tags: [prototyping, manufacturing, programming, clinical, cardiovascular]
+# tags: [prototyping, manufacturing, programming, clinical, cardiovascular]
 order: 4
 ---
 
@@ -18,3 +18,7 @@ During my time at Weill Cornell Medicine, I contributed and led projects in AR-g
 
 **Advanced biomaterials testing:** [RSC Journal of Materials Chemistry B](https://pubs.rsc.org/en/content/articlelanding/2019/tb/c9tb00278b/unauth){: .btn .btn--primary}  
 *Contributed to experimental development of novel materials, including optically cured hydrogels for injectable devices and slippery liquid-infused porous surfaces for friction-reducing applications in surgical tools and implants.*
+
+---
+
+**Tags:** prototyping, manufacturing, programming, clinical, cardiovascular

@@ -4,7 +4,7 @@ excerpt: "Automated patch-clamp robotics; installs at academic institutions and 
 header:
   teaser: /assets/img/projects/patcherbot.jpg   # card image
   overlay_image: /assets/img/projects/patcherbot.jpg
-tags: [robotics, neuroscience, pharmacology, organoids, optogenetics]
+# tags: [robotics, neuroscience, pharmacology, organoids, optogenetics]
 order: 3
 ---
 
@@ -21,3 +21,7 @@ I designed and commercialized the PatcherBot, an automated patch-clamp robot. Mu
 
 **Organoid Testing:** [Journal of Neuroscience Methods](https://www.sciencedirect.com/science/article/abs/pii/S0165027023001176){: .btn .btn--primary}  
 *Application of the PatcherBot in testing developing organoids!*
+
+---
+
+**Tags:** robotics, neuroscience, pharmacology, organoids, optogenetics

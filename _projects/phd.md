@@ -3,7 +3,7 @@ title: "PhD: Neural Engineering (Georgia Tech)"
 excerpt: "High-throughput electrophysiology tools and ML state machines for single-cellular recordings."
 header:
   teaser: /assets/img/projects/gt-seal.png
-tags: [PhD, bioengineering, neuroscience, automation, ML, robotics]
+# tags: [PhD, bioengineering, neuroscience, automation, ML, robotics]
 order: 1
 ---
 
@@ -21,3 +21,7 @@ Towards these aims, this thesis demonstrated the first robotic system to perform
 {% include video id="GeNs56jmmXU" provider="youtube" %}
 
 **Dissertation:** [Georgia Tech Repository](https://repository.gatech.edu/entities/publication/640bef49-75ce-4675-b4e8-d253a55f2b8b){: .btn .btn--primary}
+
+---
+
+**Tags:** PhD, bioengineering, neuroscience, automation, ML, robotics

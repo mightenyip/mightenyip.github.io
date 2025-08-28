@@ -1,9 +1,9 @@
 ---
-title: "Palate Therapeutics: taste bud therapy for metabolic diseases"
+title: "Palate Therapeutics: Taste bud therapy for metabolic diseases"
 excerpt: "Pre-clinical oligonucleotide therapy modulating sugar preference; we have since become a CPG company with a short-lasting mint."
 header:
   teaser: /assets/img/projects/palate.png
-tags: [therapeutics, siRNA-therapy, metabolism]
+# tags: [therapeutics, siRNA-therapy, metabolism]
 order: 2
 ---
 
@@ -17,3 +17,7 @@ We were a preclinical stage company utilizing a unique mechanism of action targe
 
 
 **Startup was incubated at IndieBio/SOSV Class 06 in NYC!** [IndieBio Profile](https://indiebio.co/company/palate-therapeutics/){: .btn .btn--primary}
+
+---
+
+**Tags:** therapeutics, siRNA-therapy, metabolism, taste buds
