@@ -33,6 +33,13 @@
 
 .archive__item-title {
   margin-top: 1rem;
+  font-size: 1.2rem !important;
+  line-height: 1.4 !important;
+  font-weight: 600 !important;
+  min-height: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .archive__item-tags {
