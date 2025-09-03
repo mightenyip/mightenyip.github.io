@@ -5,7 +5,7 @@ permalink: /projects/
 classes: wide
 ---
 
-A selection of academic, startup, and translational work.
+A selection of my academic, startup, and translational work.
 
 {% assign projects = site.projects | sort: 'order' %}
 

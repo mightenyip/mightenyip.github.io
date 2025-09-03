@@ -4,7 +4,7 @@ excerpt: "AR-guided surgery, rapid prototyping, and advanced biomaterials at Wei
 header:
   teaser: /assets/img/projects/weill2.png
 # tags: [prototyping, manufacturing, programming, clinical, cardiovascular]
-order: 4
+order: 6
 ---
 
 During my time at Weill Cornell Medicine, I contributed and led projects in AR-guided surgery, rapid prototyping of interventional cardiac materials, and validation of advanced biomaterials in cross-collaboration with clinical teams.
