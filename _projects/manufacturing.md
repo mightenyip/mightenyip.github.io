@@ -2,7 +2,8 @@
 title: "Manufacturing & Quality Engineering for Medical Devices"
 excerpt: "Manufacturing engineering and process development for medical device production at St. Jude Medical."
 header:
-  teaser: /assets/img/mfg-eng.avif   # card image
+  teaser: /assets/img/projects/sjm.png  # card image
+  overlay_image: /assets/img/mfg-eng.avif 
 # tags: [manufacturing, medical-devices, process-development, engineering]
 order: 4
 ---
