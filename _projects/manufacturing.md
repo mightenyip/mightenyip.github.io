@@ -20,8 +20,6 @@ During my time at St. Jude Medical (now Abbott), I worked on manufacturing engin
 
 **Root Cause Analysis & Process Improvement:** Supported Root Cause and Corrective Action (RCCA) using methodologies such as Failure Modes and Effects Analysis (FMEA), Key Characteristics, and Geometric Dimensioning and Tolerancing (GD&T).
 
-**Process Optimization:** Streamlined manufacturing workflows and improved production efficiency through systematic process analysis and continuous improvement initiatives.
-
 **Quality Assurance:** Implemented and enhanced quality control systems to ensure medical devices meet strict regulatory requirements and safety standards.
 
 **Manufacturing Engineering:** Applied engineering principles to solve complex manufacturing challenges and improve product reliability.
