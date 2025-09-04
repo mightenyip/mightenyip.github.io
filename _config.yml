@@ -85,7 +85,7 @@ feed:
 gtag: "UA-171569503-1"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "G-WSHF60YN4E"
 
 # Google Tag Manager ID
 #gtm: ""
