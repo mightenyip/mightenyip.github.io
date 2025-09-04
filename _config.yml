@@ -4,7 +4,7 @@ url: "https://mightenyip.github.io"
 # baseurl: ""   # keep blank for user sites
 
 # Minimal Mistakes via remote_theme
-remote_theme: "mmistakes/minimal-mistakes@4.26.0"
+remote_theme: "mmistakes/minimal-mistakes@4.26.1"
 
 plugins:
   - jekyll-include-cache
@@ -81,11 +81,18 @@ feed:
 
 # --- Web Statistics Section --- #
 
-# Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag: "G-WSHF60YN4E"
-
-# Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+# Analytics
+analytics:
+  provider               : "custom"
+  custom:
+    - "<!-- Google tag (gtag.js) -->"
+    - "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-WSHF60YN4E\"></script>"
+    - "<script>"
+    - "  window.dataLayer = window.dataLayer || [];"
+    - "  function gtag(){dataLayer.push(arguments);}"
+    - "  gtag('js', new Date());"
+    - "  gtag('config', 'G-WSHF60YN4E');"
+    - "</script>"
 
 # Google Tag Manager ID
 #gtm: ""
