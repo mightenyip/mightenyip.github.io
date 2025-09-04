@@ -82,10 +82,10 @@ feed:
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag: "UA-171569503-1"
+gtag: "G-WSHF60YN4E"
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "G-WSHF60YN4E"
+#google_analytics: ""
 
 # Google Tag Manager ID
 #gtm: ""
