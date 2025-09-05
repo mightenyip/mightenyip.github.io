@@ -18,18 +18,18 @@ header:
 ---
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WSHF60YN4E"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZEVJ7W152"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-WSHF60YN4E');
+  gtag('config', 'G-KZEVJ7W152');
 </script>
 
 # About Me
 
-**Founder @ Palate Therapeutics** (CPG mint and therapeutic strategy for reducing sugar consumption in metabolic diseases) & **Neuromatic Devices** (AI and robotic tools for electrophysiology and neuroscience).
+**Founder @ Palate Therapeutics** (CPG lozenge and therapeutic strategy for reducing sugar consumption in metabolic diseases) & **Neuromatic Devices** (AI and robotic tools for electrophysiology and neuroscience).
 
 Past work has included: object-detection using ML, biotech/neuroscience, and electromechanical control systems. Check out my **[my projects](/projects/)** to learn more!
 

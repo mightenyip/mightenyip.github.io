@@ -85,7 +85,7 @@ feed:
 analytics:
   provider               : "google-gtag"
   google:
-    tracking_id          : "G-WSHF60YN4E"
+    tracking_id          : "G-KZEVJ7W152"
     anonymize_ip         : true
 
 # Google Tag Manager ID
