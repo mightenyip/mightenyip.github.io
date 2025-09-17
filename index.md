@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/img/projects/robot-ap-ai.png
   actions:
     - label: "LinkedIn"
-      url: https://www.linkedin.com/in/mightenyip/
+      url: www.linkedin.com/in/mighten-yip
     - label: "GitHub"
       url: https://github.com/mightenyip
     - label: "Twitter"
